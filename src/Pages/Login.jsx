@@ -32,7 +32,7 @@ const Login = () => {
             <button className="btn">Sign in</button> 
             {err && <span>Something went wrong</span>}
           </form>
-          <p className="p">You don't have an account? <Link to={"/register"}>Register</Link></p>
+{/*           <p className="p">You don't have an account? <Link to={"/register"}>Register</Link></p> */}
         </div>
       </div>
     </>
