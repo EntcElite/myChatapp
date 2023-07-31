@@ -29,10 +29,10 @@ const Login = () => {
           <form action="" onSubmit={handleSubmit}>
             <input type="email" name="email" placeholder="email" />
             <input type="password" name="password" placeholder="password" />
-            <button className="btn">Sign in</button> 
+            {/* <button className="btn">Sign in</button>  */}
             {err && <span>Something went wrong</span>}
           </form>
-          <p className="p">You don't have an account? <Link to={"/register"}>Register</Link></p>
+          {/* <p className="p">You don't have an account? <Link to={"/register"}>Register</Link></p> */}
         </div>
       </div>
     </>
